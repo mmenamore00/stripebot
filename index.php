@@ -4,7 +4,7 @@
 
 ///https://api.telegram.org/bot<token>/setwebhook?url=<url>
 
-$botToken = "1472905848:AAHj-wDq3UJKkCL61VnuK7w-zOPxadnKjlI"; // Enter ur bot token
+$botToken = "5655456106:AAErT2NtXg-4Kdmk9hhznZO2YcL4Kzx9Ouw"; // Enter ur bot token
 $website = "https://api.telegram.org/bot".$botToken;
 error_reporting(0);
 $update = file_get_contents('php://input');
@@ -21,7 +21,7 @@ $message_id = $update["message"]["message_id"];
 //////////=========[Start Command]=========//////////
 
 if ((strpos($message, "!start") === 0)||(strpos($message, "/start") === 0)){
-sendMessage($chatId, "<b>Hello there!!%0AType /cmds to know all my commands!!%0A%0ABot Made by Dragon</b>");
+sendMessage($chatId, "<b>Hello there!!%0AType /cmds to know all my commands!!%0A%0ABot Made by mmenamore</b>");
 }
 
 //////////=========[Cmds Command]=========//////////
@@ -33,7 +33,7 @@ sendMessage($chatId, "<u>Bin lookup:</u> <code>!bin</code> xxxxxx%0A<u>SK Key Ch
 //////////=========[Info Command]=========//////////
 
 elseif ((strpos($message, "!info") === 0)||(strpos($message, "/info") === 0)){
-sendMessage($chatId, "<u>ID:</u> <code>$userId</code>%0A<u>First Name:</u> $firstname%0A<u>Username:</u> @$username%0A%0A<b>Bot Made by Dragon </b>");
+sendMessage($chatId, "<u>ID:</u> <code>$userId</code>%0A<u>First Name:</u> $firstname%0A<u>Username:</u> @$username%0A%0A<b>Bot Made by mmenamore </b>");
 }
 
 //////////=========[Bin Command]=========//////////
@@ -225,11 +225,11 @@ $postcode = $matches1[1][0];
 ////////////////////////////===[Proxys]===//////////////
 
 $rp1 = array(
-  1 => 'user-rotate:pass',
-  2 => 'user-rotate:pass',
-  3 => 'user-rotate:pass',
-  4 => 'user-rotate:pass',
-  5 => 'user-rotate:pass',
+  1 => 'drhdnqxq-rotate:9g4otsb2o2wz',
+  2 => 'drhdnqxq-rotate:9g4otsb2o2wz',
+  3 => 'drhdnqxq-rotate:9g4otsb2o2wz',
+  4 => 'drhdnqxq-rotate:9g4otsb2o2wz',
+  5 => 'drhdnqxq-rotate:9g4otsb2o2wz',
     ); 
     $rpt = array_rand($rp1);
     $rotate = $rp1[$rpt];
